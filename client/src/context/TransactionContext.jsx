@@ -261,7 +261,6 @@ export const TransactionsProvider = ({ children }) => {
         console.log(`Success - ${prediction.hash}`);
         setIsUpdating(false);
 
-        window.location.reload();
       } else {
         console.log("No ethereum object");
       }
